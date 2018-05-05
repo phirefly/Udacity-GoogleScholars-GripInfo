@@ -13,21 +13,24 @@
         android:layout_width="match_parent"
         android:layout_height="174dp"
         android:scaleType="centerInside"
+        android:background="#bebebe"
         android:src="@drawable/griplogo" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="At GRIP Outreach For Youth, our mission is to break the fatherless cycle through Christ-centered, Life-on-Life relationships."
+        android:text="@string/intro_text"
         android:textSize="24sp"
-        android:padding="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="25dp"
+        android:paddingLeft="25dp"
         android:background="#bebebe"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="2934 W. Lake St., #2R Chicago, IL 60612 312.563.5630 info@gripyouth.com"
+        android:text="@string/contact_text"
         android:textSize="24sp"
         android:padding="25dp"
         android:background="#cc0825"

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Grip Info</string>
+    <string name="intro_text">At GRIP Outreach For Youth, our mission is to break the fatherless cycle through Christ-centered, Life-on-Life relationships.</string>
+    <string name="contact_text">
+        2934 W. Lake St. #2R\nChicago, IL 60612\n312.563.5630\ninfo@gripyouth.com
+    </string>
 </resources>
