@@ -11,19 +11,15 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="174px"
-        android:scaleType="CENTER_INSIDE"
+        android:layout_height="174dp"
+        android:scaleType="centerInside"
         android:src="@drawable/griplogo" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="At GRIP Outreach For Youth, our mission is to break the fatherless cycle through Christ-centered, Life-on-Life relationships."
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         android:textSize="24sp"
-        app:layout_constraintTop_toTopOf="parent"
         android:padding="25dp"
         android:background="#bebebe"
         />
@@ -31,19 +27,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="2934 W. Lake St., #2R
-Chicago, IL 60612
-312.563.5630
-info@gripyouth.com"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:text="2934 W. Lake St., #2R Chicago, IL 60612 312.563.5630 info@gripyouth.com"
         android:textSize="24sp"
-        app:layout_constraintTop_toTopOf="parent"
         android:padding="25dp"
         android:background="#cc0825"
         android:textStyle="bold"
         android:textColor="@android:color/white"
         />
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
